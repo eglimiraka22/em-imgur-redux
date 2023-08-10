@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo } from 'react';
+import React, { useCallback, useEffect, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectGalleryState } from '../../store/selectors/gallerySelector';
 import { AppDispatch } from '../../store';
@@ -25,6 +25,7 @@ const GalleryGrid = () => {
         );
     }, [dispatch, gallery.filters]);
 
+
     const renderItems = useMemo(() => {
         return gallery.items
             .slice(0, gallery.filters.visible)
@@ -34,15 +35,18 @@ const GalleryGrid = () => {
             });
     }, [gallery.filters.visible, gallery.items]);
 
+
     if (gallery.loading) {
         return <Loading />;
     }
 
     
+
+    
     
     return (
         <main className='container mx-auto px-4 mt-10 mb-10'>
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 {renderItems}
             </div>
             <div className='flex items-center justify-center w-full mt-10'>
