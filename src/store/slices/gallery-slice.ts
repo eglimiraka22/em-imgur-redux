@@ -3,7 +3,7 @@ import {
 	GalleryFilters,
 	GalleryState,
 	GalleryResponse,
-} from '../../interfaces/interfaces';
+} from '../../interfaces/interfaces'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { fetchGalleryData } from '../actions/galleryActions';
 

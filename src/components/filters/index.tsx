@@ -23,11 +23,12 @@ const Filters = () => {
             ...gallery.filters,
             [name]: value
         }))
+        console.log(value)
     }, [dispatch, gallery.filters]);
 
 
     return (
-        <div className="container w-full mx-auto px-4 flex flex-wrap items-end   gap-10 mt-10">
+        <div className="container mx-auto px-4 flex flex-wrap items-end gap-10 mt-10">
             <div className="">
                 <h3 className="mb-2 text-sm font-bold">Section</h3>
                 <div className="flex">
@@ -91,9 +92,9 @@ const Filters = () => {
             <div className="flex">
                 <div className="mr-4">
                     <Checkbox checked={gallery.filters.showViral}
-                        onChange={(e) => handleFilterToggle('showViral', e.target.checked)} label="Show Viral" />
+                        onChange={(e) => handleFilterToggle('showViral', e.target.checked)} label="show Viral" />
                 </div>
-                
+               
             </div>
 
 
