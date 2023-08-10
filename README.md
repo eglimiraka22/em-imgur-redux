@@ -1,5 +1,18 @@
 # Getting Started with Create React App
 
+# Installed packages :
+
+### `@reduxjs/toolkit`
+### `react-redux`
+
+### `react-router`
+
+### `axios`
+
+### `hero-icons`
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
