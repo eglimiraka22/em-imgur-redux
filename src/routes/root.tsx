@@ -14,7 +14,7 @@ const Root = () => {
 
 	return (
 		<Layout>
-			<div className=''><Filters />
+			<div className='bg-gray-50'><Filters />
 			<GalleryGrid /></div>
 		</Layout>
 	);
