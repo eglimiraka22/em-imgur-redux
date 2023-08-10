@@ -7,6 +7,7 @@
  `react-router`
  `axios`
  `hero-icons`
+ `tailwind`
 
 ## Build With:
 
