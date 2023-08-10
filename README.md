@@ -8,6 +8,26 @@
  `axios`
  `hero-icons`
 
+## Build With:
+
+`Typescript`
+`Tailwind Css`
+`React`
+
+
+## Project aproach:
+
+`1` To build this project first of all I got the client id from Imguri Api and checked Imguri .\
+ documentation for data results coming from api to build the Typescript Interfaces with data types 
+
+ `2` Build the Api using axios and started to implement redux store using redux-toolkit
+
+ `3` Separated Store in 3 folders for better management of actions selectors(for data) and the slice reducer
+
+ `4` Started to build components and routes for Image Gallery
+
+ `5` This is a simple implementation for getting Images from Imguri Api and Displaying them on an Image Grid Gallery 
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
