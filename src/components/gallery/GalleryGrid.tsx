@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo } from 'react';
+import React, { useCallback, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectGalleryState } from '../../store/selectors/gallerySelector';
 import { AppDispatch } from '../../store';

@@ -16,7 +16,7 @@
 `React`
 
 
-## Project aproach:
+## Project approach:
 
 `1` To build this project first of all I got the client id from Imguri Api and checked Imguri .\
  documentation for data results coming from api to build the Typescript Interfaces with data types 
