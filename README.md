@@ -2,14 +2,11 @@
 
 # Installed packages :
 
-## `@reduxjs/toolkit`
-## `react-redux`
-
-## `react-router`
-
-## `axios`
-
-## `hero-icons`
+ `@reduxjs/toolkit`
+ `react-redux`
+ `react-router`
+ `axios`
+ `hero-icons`
 
 
 
