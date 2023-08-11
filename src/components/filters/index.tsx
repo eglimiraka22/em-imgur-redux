@@ -28,8 +28,9 @@ const Filters = () => {
 
 
     return (
-        <div className="container mx-auto px-4 flex flex-wrap items-end gap-10 mt-10">
-            <div className="">
+  
+            <div className="container mx-auto px-4 flex flex-wrap flex-row justify-center items-center gap-10 mt-10 ">
+                <div className="">
                 <h3 className="mb-2 text-sm font-bold">Section</h3>
                 <div className="flex">
                     <Button onClick={() => handleFilterTags('section', 'hot')} active={gallery.filters.section === "hot"}>
