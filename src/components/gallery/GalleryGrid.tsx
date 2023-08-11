@@ -28,7 +28,7 @@ const GalleryGrid = () => {
 
     const renderItems = useMemo(() => {
         return gallery.items
-            .slice(0, gallery.filters.visible)
+.slice(0, gallery.filters.visible)
             .filter((item) => item.images)
             .map((item) => {
                 return <GalleryCard item={item} key={item.id} />;

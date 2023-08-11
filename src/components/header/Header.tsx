@@ -48,8 +48,8 @@ const Header = () => {
 											y2='32'
 											gradientUnits='userSpaceOnUse'
 										>
-											<stop stop-color='#00E676' />
-											<stop offset='1' stop-color='#00C853' />
+											<stop stopColor='#00E676' />
+											<stop offset='1' stopColor='#00C853' />
 										</linearGradient>
 									</defs>
 								</svg>
@@ -287,7 +287,7 @@ const Header = () => {
 												gradientUnits='userSpaceOnUse'
 											>
 												<stop stopColor='#00E676' />
-												<stop offset='1' stop-color='#00C853' />
+												<stop offset='1' stopColor='#00C853' />
 											</linearGradient>
 										</defs>
 									</svg>
